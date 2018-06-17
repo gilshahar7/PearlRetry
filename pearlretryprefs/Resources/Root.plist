@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>PearlRetry</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Retry delay in seconds</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.7</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>1.5</real>
+			<key>showValue</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>segmentCount</key>
+			<integer>30</integer>
+			<key>defaults</key>
+			<string>com.gilshahar7.pearlretryprefs</string>
+			<key>key</key>
+			<string>delay</string>
+			<key>PostNotification</key>
+			<string>com.gilshahar7.pearlretryprefs.settingschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PearlRetryPrefs</string>
+</dict>
+</plist>
