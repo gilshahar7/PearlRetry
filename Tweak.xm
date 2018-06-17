@@ -14,14 +14,6 @@ static void loadPrefs() {
     delay = [[prefs objectForKey:@"delay"] floatValue]; 
 }
 
-void pearlretry_settingsDidUpdate(CFNotificationCenterRef center,
-                           void * observer,
-                           CFStringRef name,
-                           const void * object,
-                           CFDictionaryRef userInfo) {
-
-}
-
 %hook SBDashBoardPearlUnlockBehavior
 -(void)_handlePearlFailure{
     %orig;
