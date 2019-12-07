@@ -1,7 +1,7 @@
 Package: com.gilshahar7.pearlretry
 Name: PearlRetry
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Retry FaceID when failed to recognize.
 Maintainer: gilshahar7
